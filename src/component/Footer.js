@@ -29,10 +29,12 @@ export default function Footer() {
           <Link to="/grandopen">공사콕 홈페이지</Link>
         </li>
         <li>
-          <Link to="/grandopen">이용약관</Link>
+          <Link to="https://contents.gongsacok.com/terms">이용약관</Link>
         </li>
         <li>
-          <Link to="/grandopen">개인정보취급방침</Link>
+          <Link to="https://contents.gongsacok.com/privacy">
+            개인정보취급방침
+          </Link>
         </li>
       </ul>
     </div>

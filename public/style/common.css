@@ -71,8 +71,9 @@ a > img {
   color: var(--color_white_basic);
   margin: 0 4px;
 }
+
 /* mob size ============================================================= */
-@media screen and (min-width: 430px) and (max-width: 833px) {
+@media screen and (min-width: 440px) and (max-width: 833px) {
   .visualBox_coklogo {
     width: 194px;
   }
@@ -87,6 +88,18 @@ a > img {
   }
 }
 
+@media screen and (max-width: 429px) {
+  .visualBox_buttonWrap button,
+  .visualBox_buttonWrap a {
+    font-family: "Pretendard-SemiBold";
+  }
+  a > img {
+    margin-right: 4px;
+    height: 12px;
+    transform: translateY(2px);
+  }
+}
+
 /* tab, pc size ============================================================= */
 @media screen and (min-width: 834px) {
   .visualBox_coklogo {
@@ -95,6 +108,7 @@ a > img {
   a > img {
     height: 18px;
     margin-right: 8px;
+    transform: translateY(3px);
   }
   .visualBox_buttonWrap button,
   .visualBox_buttonWrap a {

@@ -23,14 +23,6 @@
   src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
     format("woff");
 }
-@font-face {
-  font-family: "OSeongandHanEum";
-  src: url("../assets/fonts/OSeongandHanEum-Bold.otf");
-}
-@font-face {
-  font-family: "OSeongandHanEum-R";
-  src: url("../assets/fonts/OSeongandHanEum-Regular.otf");
-}
 
 :root {
   --color_purple_basic: #b53bfd;
@@ -99,7 +91,7 @@
 .headTitle {
   margin-bottom: 40px;
 }
-@media screen and (min-width: 430px) and (max-width: 833px) {
+@media screen and (max-width: 833px) {
   .box {
     padding: 60px 0;
   }
